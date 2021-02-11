@@ -23,6 +23,12 @@
 		2375FC4E25D4EFCE0053E16F /* RosterVC_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC4D25D4EFCE0053E16F /* RosterVC_Extension.swift */; };
 		2375FC5125D4EFF60053E16F /* ChallengeVC_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC5025D4EFF60053E16F /* ChallengeVC_Extension.swift */; };
 		2375FC5425D4F01F0053E16F /* MoviesVC_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC5325D4F01F0053E16F /* MoviesVC_Extension.swift */; };
+		2375FC5925D4F0B90053E16F /* adminCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC5825D4F0B90053E16F /* adminCoordinator.swift */; };
+		2375FC5D25D4F0D80053E16F /* SecurityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC5C25D4F0D80053E16F /* SecurityService.swift */; };
+		2375FC6125D4F0FF0053E16F /* adminDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC6025D4F0FF0053E16F /* adminDelegate.swift */; };
+		2375FC6525D4F10B0053E16F /* staffDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC6425D4F10B0053E16F /* staffDelegate.swift */; };
+		2375FC6825D4F1170053E16F /* playerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC6725D4F1170053E16F /* playerDelegate.swift */; };
+		2375FC6B25D4F1230053E16F /* genericDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC6A25D4F1230053E16F /* genericDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +50,12 @@
 		2375FC4D25D4EFCE0053E16F /* RosterVC_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterVC_Extension.swift; sourceTree = "<group>"; };
 		2375FC5025D4EFF60053E16F /* ChallengeVC_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeVC_Extension.swift; sourceTree = "<group>"; };
 		2375FC5325D4F01F0053E16F /* MoviesVC_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesVC_Extension.swift; sourceTree = "<group>"; };
+		2375FC5825D4F0B90053E16F /* adminCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adminCoordinator.swift; sourceTree = "<group>"; };
+		2375FC5C25D4F0D80053E16F /* SecurityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityService.swift; sourceTree = "<group>"; };
+		2375FC6025D4F0FF0053E16F /* adminDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adminDelegate.swift; sourceTree = "<group>"; };
+		2375FC6425D4F10B0053E16F /* staffDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = staffDelegate.swift; sourceTree = "<group>"; };
+		2375FC6725D4F1170053E16F /* playerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerDelegate.swift; sourceTree = "<group>"; };
+		2375FC6A25D4F1230053E16F /* genericDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genericDelegate.swift; sourceTree = "<group>"; };
 		3626B6BD8245010CB4F24B99 /* Pods-MySquadPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySquadPro.release.xcconfig"; path = "Target Support Files/Pods-MySquadPro/Pods-MySquadPro.release.xcconfig"; sourceTree = "<group>"; };
 		3A30735F9395AB2C3F42F82E /* Pods-MySquadPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySquadPro.debug.xcconfig"; path = "Target Support Files/Pods-MySquadPro/Pods-MySquadPro.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +93,7 @@
 		2375FBBB25D4E6520053E16F /* MySquadPro */ = {
 			isa = PBXGroup;
 			children = (
+				2375FC5625D4F08C0053E16F /* API */,
 				2375FC4925D4EF5C0053E16F /* Extension */,
 				2375FC3B25D4EE350053E16F /* Controllers */,
 				2375FC3325D4EDC90053E16F /* Model */,
@@ -123,6 +136,35 @@
 				2375FC5325D4F01F0053E16F /* MoviesVC_Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		2375FC5625D4F08C0053E16F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2375FC5F25D4F0E70053E16F /* Protocols */,
+				2375FC5725D4F0950053E16F /* Coordinators */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		2375FC5725D4F0950053E16F /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				2375FC5825D4F0B90053E16F /* adminCoordinator.swift */,
+				2375FC5C25D4F0D80053E16F /* SecurityService.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		2375FC5F25D4F0E70053E16F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2375FC6025D4F0FF0053E16F /* adminDelegate.swift */,
+				2375FC6425D4F10B0053E16F /* staffDelegate.swift */,
+				2375FC6725D4F1170053E16F /* playerDelegate.swift */,
+				2375FC6A25D4F1230053E16F /* genericDelegate.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		69D9674A730B4178CBA335B3 /* Frameworks */ = {
@@ -258,15 +300,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				2375FC4725D4EF160053E16F /* MoviesController.swift in Sources */,
+				2375FC6B25D4F1230053E16F /* genericDelegate.swift in Sources */,
+				2375FC5D25D4F0D80053E16F /* SecurityService.swift in Sources */,
+				2375FC6125D4F0FF0053E16F /* adminDelegate.swift in Sources */,
 				2375FC3D25D4EE5B0053E16F /* DashboardController.swift in Sources */,
 				2375FC5425D4F01F0053E16F /* MoviesVC_Extension.swift in Sources */,
 				2375FC4425D4EEE90053E16F /* ChallengeController.swift in Sources */,
 				2375FC4B25D4EFA70053E16F /* DashboardVC_Extension.swift in Sources */,
+				2375FC6825D4F1170053E16F /* playerDelegate.swift in Sources */,
 				2375FBBD25D4E6520053E16F /* AppDelegate.swift in Sources */,
 				2375FC4125D4EEBD0053E16F /* RosterController.swift in Sources */,
+				2375FC6525D4F10B0053E16F /* staffDelegate.swift in Sources */,
 				2375FC5125D4EFF60053E16F /* ChallengeVC_Extension.swift in Sources */,
 				2375FC4E25D4EFCE0053E16F /* RosterVC_Extension.swift in Sources */,
 				2375FBBF25D4E6520053E16F /* SceneDelegate.swift in Sources */,
+				2375FC5925D4F0B90053E16F /* adminCoordinator.swift in Sources */,
 				2375FC3525D4EDD60053E16F /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
