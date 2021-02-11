@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AEDEF3E9B10951FDFF720CC /* Pods_MySquadPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B476FB4224FC73CF32B4697 /* Pods_MySquadPro.framework */; };
 		2375FBBD25D4E6520053E16F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FBBC25D4E6520053E16F /* AppDelegate.swift */; };
 		2375FBBF25D4E6520053E16F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FBBE25D4E6520053E16F /* SceneDelegate.swift */; };
-		2375FBC125D4E6520053E16F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FBC025D4E6520053E16F /* ViewController.swift */; };
 		2375FBC425D4E6520053E16F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2375FBC225D4E6520053E16F /* Main.storyboard */; };
 		2375FBC625D4E6530053E16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2375FBC525D4E6530053E16F /* Assets.xcassets */; };
 		2375FBC925D4E6530053E16F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2375FBC725D4E6530053E16F /* LaunchScreen.storyboard */; };
+		2375FBD225D4E6750053E16F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2375FBD125D4E6750053E16F /* GoogleService-Info.plist */; };
+		2375FC0A25D4E8870053E16F /* ChallengeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC0625D4E8870053E16F /* ChallengeController.swift */; };
+		2375FC0B25D4E8870053E16F /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC0725D4E8870053E16F /* DashboardController.swift */; };
+		2375FC0C25D4E8870053E16F /* MoviesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC0825D4E8870053E16F /* MoviesController.swift */; };
+		2375FC0D25D4E8870053E16F /* RosterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC0925D4E8870053E16F /* RosterController.swift */; };
+		2375FC1625D4E9040053E16F /* RosterVC_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC1225D4E9040053E16F /* RosterVC_Ext.swift */; };
+		2375FC1725D4E9040053E16F /* MoviesVC_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC1325D4E9040053E16F /* MoviesVC_Ext.swift */; };
+		2375FC1825D4E9040053E16F /* DashboardVC_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC1425D4E9040053E16F /* DashboardVC_Ext.swift */; };
+		2375FC1925D4E9040053E16F /* ChallengesVC_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC1525D4E9040053E16F /* ChallengesVC_Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B476FB4224FC73CF32B4697 /* Pods_MySquadPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySquadPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2375FBB925D4E6520053E16F /* MySquadPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySquadPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2375FBBC25D4E6520053E16F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2375FBBE25D4E6520053E16F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2375FBC025D4E6520053E16F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2375FBC325D4E6520053E16F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2375FBC525D4E6530053E16F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2375FBC825D4E6530053E16F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2375FBCA25D4E6530053E16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2375FBD125D4E6750053E16F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2375FC0625D4E8870053E16F /* ChallengeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChallengeController.swift; path = "../../../../../Desktop/mySquadProApp-main/mySquadApp/Controllers/ChallengeController.swift"; sourceTree = "<group>"; };
+		2375FC0725D4E8870053E16F /* DashboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DashboardController.swift; path = "../../../../../Desktop/mySquadProApp-main/mySquadApp/Controllers/DashboardController.swift"; sourceTree = "<group>"; };
+		2375FC0825D4E8870053E16F /* MoviesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoviesController.swift; path = "../../../../../Desktop/mySquadProApp-main/mySquadApp/Controllers/MoviesController.swift"; sourceTree = "<group>"; };
+		2375FC0925D4E8870053E16F /* RosterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RosterController.swift; path = "../../../../../Desktop/mySquadProApp-main/mySquadApp/Controllers/RosterController.swift"; sourceTree = "<group>"; };
+		2375FC1225D4E9040053E16F /* RosterVC_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RosterVC_Ext.swift; sourceTree = "<group>"; };
+		2375FC1325D4E9040053E16F /* MoviesVC_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesVC_Ext.swift; sourceTree = "<group>"; };
+		2375FC1425D4E9040053E16F /* DashboardVC_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardVC_Ext.swift; sourceTree = "<group>"; };
+		2375FC1525D4E9040053E16F /* ChallengesVC_Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengesVC_Ext.swift; sourceTree = "<group>"; };
+		3626B6BD8245010CB4F24B99 /* Pods-MySquadPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySquadPro.release.xcconfig"; path = "Target Support Files/Pods-MySquadPro/Pods-MySquadPro.release.xcconfig"; sourceTree = "<group>"; };
+		3A30735F9395AB2C3F42F82E /* Pods-MySquadPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySquadPro.debug.xcconfig"; path = "Target Support Files/Pods-MySquadPro/Pods-MySquadPro.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AEDEF3E9B10951FDFF720CC /* Pods_MySquadPro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				2375FBBB25D4E6520053E16F /* MySquadPro */,
 				2375FBBA25D4E6520053E16F /* Products */,
+				8C590E1EF8F553B647DAC3FD /* Pods */,
+				69D9674A730B4178CBA335B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +81,63 @@
 			children = (
 				2375FBBC25D4E6520053E16F /* AppDelegate.swift */,
 				2375FBBE25D4E6520053E16F /* SceneDelegate.swift */,
-				2375FBC025D4E6520053E16F /* ViewController.swift */,
+				2375FC0425D4E85F0053E16F /* Model */,
+				2375FC0525D4E8650053E16F /* Controllers */,
+				2375FC1125D4E9040053E16F /* Extensions */,
 				2375FBC225D4E6520053E16F /* Main.storyboard */,
 				2375FBC525D4E6530053E16F /* Assets.xcassets */,
 				2375FBC725D4E6530053E16F /* LaunchScreen.storyboard */,
 				2375FBCA25D4E6530053E16F /* Info.plist */,
+				2375FBD125D4E6750053E16F /* GoogleService-Info.plist */,
 			);
 			path = MySquadPro;
+			sourceTree = "<group>";
+		};
+		2375FC0425D4E85F0053E16F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2375FC0525D4E8650053E16F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2375FC0625D4E8870053E16F /* ChallengeController.swift */,
+				2375FC0725D4E8870053E16F /* DashboardController.swift */,
+				2375FC0825D4E8870053E16F /* MoviesController.swift */,
+				2375FC0925D4E8870053E16F /* RosterController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2375FC1125D4E9040053E16F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2375FC1225D4E9040053E16F /* RosterVC_Ext.swift */,
+				2375FC1325D4E9040053E16F /* MoviesVC_Ext.swift */,
+				2375FC1425D4E9040053E16F /* DashboardVC_Ext.swift */,
+				2375FC1525D4E9040053E16F /* ChallengesVC_Ext.swift */,
+			);
+			name = Extensions;
+			path = "../../../../Desktop/mySquadProApp-main/mySquadApp/Extensions";
+			sourceTree = "<group>";
+		};
+		69D9674A730B4178CBA335B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B476FB4224FC73CF32B4697 /* Pods_MySquadPro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C590E1EF8F553B647DAC3FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A30735F9395AB2C3F42F82E /* Pods-MySquadPro.debug.xcconfig */,
+				3626B6BD8245010CB4F24B99 /* Pods-MySquadPro.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2375FBCD25D4E6530053E16F /* Build configuration list for PBXNativeTarget "MySquadPro" */;
 			buildPhases = (
+				76848E6CE974E307E20D6BD4 /* [CP] Check Pods Manifest.lock */,
 				2375FBB525D4E6520053E16F /* Sources */,
 				2375FBB625D4E6520053E16F /* Frameworks */,
 				2375FBB725D4E6520053E16F /* Resources */,
+				0BA7ABD235E24ABDDA89CAE4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2375FBC925D4E6530053E16F /* LaunchScreen.storyboard in Resources */,
+				2375FBD225D4E6750053E16F /* GoogleService-Info.plist in Resources */,
 				2375FBC625D4E6530053E16F /* Assets.xcassets in Resources */,
 				2375FBC425D4E6520053E16F /* Main.storyboard in Resources */,
 			);
@@ -132,14 +208,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BA7ABD235E24ABDDA89CAE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MySquadPro/Pods-MySquadPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MySquadPro/Pods-MySquadPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MySquadPro/Pods-MySquadPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76848E6CE974E307E20D6BD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MySquadPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2375FBB525D4E6520053E16F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2375FBC125D4E6520053E16F /* ViewController.swift in Sources */,
 				2375FBBD25D4E6520053E16F /* AppDelegate.swift in Sources */,
+				2375FC1925D4E9040053E16F /* ChallengesVC_Ext.swift in Sources */,
+				2375FC0C25D4E8870053E16F /* MoviesController.swift in Sources */,
+				2375FC0D25D4E8870053E16F /* RosterController.swift in Sources */,
+				2375FC0B25D4E8870053E16F /* DashboardController.swift in Sources */,
+				2375FC1625D4E9040053E16F /* RosterVC_Ext.swift in Sources */,
 				2375FBBF25D4E6520053E16F /* SceneDelegate.swift in Sources */,
+				2375FC1825D4E9040053E16F /* DashboardVC_Ext.swift in Sources */,
+				2375FC1725D4E9040053E16F /* MoviesVC_Ext.swift in Sources */,
+				2375FC0A25D4E8870053E16F /* ChallengeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +408,7 @@
 		};
 		2375FBCE25D4E6530053E16F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A30735F9395AB2C3F42F82E /* Pods-MySquadPro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +427,7 @@
 		};
 		2375FBCF25D4E6530053E16F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3626B6BD8245010CB4F24B99 /* Pods-MySquadPro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
