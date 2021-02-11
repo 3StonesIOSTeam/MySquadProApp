@@ -29,6 +29,7 @@
 		2375FC2B25D4EAFF0053E16F /* staffDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC2525D4EAFF0053E16F /* staffDelegate.swift */; };
 		2375FC2C25D4EAFF0053E16F /* playerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC2625D4EAFF0053E16F /* playerDelegate.swift */; };
 		2375FC3125D4EBF60053E16F /* VerificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC3025D4EBF60053E16F /* VerificationService.swift */; };
+		2375FC3525D4EDD60053E16F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC3425D4EDD60053E16F /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		2375FC2525D4EAFF0053E16F /* staffDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = staffDelegate.swift; sourceTree = "<group>"; };
 		2375FC2625D4EAFF0053E16F /* playerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playerDelegate.swift; sourceTree = "<group>"; };
 		2375FC3025D4EBF60053E16F /* VerificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationService.swift; sourceTree = "<group>"; };
+		2375FC3425D4EDD60053E16F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3626B6BD8245010CB4F24B99 /* Pods-MySquadPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySquadPro.release.xcconfig"; path = "Target Support Files/Pods-MySquadPro/Pods-MySquadPro.release.xcconfig"; sourceTree = "<group>"; };
 		3A30735F9395AB2C3F42F82E /* Pods-MySquadPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySquadPro.debug.xcconfig"; path = "Target Support Files/Pods-MySquadPro/Pods-MySquadPro.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,9 +95,9 @@
 		2375FBBB25D4E6520053E16F /* MySquadPro */ = {
 			isa = PBXGroup;
 			children = (
+				2375FC3325D4EDC90053E16F /* Model */,
 				2375FBBC25D4E6520053E16F /* AppDelegate.swift */,
 				2375FBBE25D4E6520053E16F /* SceneDelegate.swift */,
-				2375FC0425D4E85F0053E16F /* Model */,
 				2375FC0525D4E8650053E16F /* Controllers */,
 				2375FC1125D4E9040053E16F /* Extensions */,
 				2375FC1D25D4EABC0053E16F /* API */,
@@ -106,13 +108,6 @@
 				2375FBD125D4E6750053E16F /* GoogleService-Info.plist */,
 			);
 			path = MySquadPro;
-			sourceTree = "<group>";
-		};
-		2375FC0425D4E85F0053E16F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		2375FC0525D4E8650053E16F /* Controllers */ = {
@@ -168,6 +163,14 @@
 			);
 			name = Protocols;
 			path = "../../../../../Downloads/API-main/SquadApi/Protocols";
+			sourceTree = "<group>";
+		};
+		2375FC3325D4EDC90053E16F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2375FC3425D4EDD60053E16F /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		69D9674A730B4178CBA335B3 /* Frameworks */ = {
@@ -316,6 +319,7 @@
 				2375FC2B25D4EAFF0053E16F /* staffDelegate.swift in Sources */,
 				2375FC1825D4E9040053E16F /* DashboardVC_Ext.swift in Sources */,
 				2375FC2925D4EAFF0053E16F /* genericDelegate.swift in Sources */,
+				2375FC3525D4EDD60053E16F /* User.swift in Sources */,
 				2375FC2825D4EAFF0053E16F /* SecurityService.swift in Sources */,
 				2375FC1725D4E9040053E16F /* MoviesVC_Ext.swift in Sources */,
 				2375FC0A25D4E8870053E16F /* ChallengeController.swift in Sources */,
