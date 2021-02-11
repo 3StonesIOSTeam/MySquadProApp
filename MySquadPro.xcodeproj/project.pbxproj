@@ -29,6 +29,8 @@
 		2375FC6525D4F10B0053E16F /* staffDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC6425D4F10B0053E16F /* staffDelegate.swift */; };
 		2375FC6825D4F1170053E16F /* playerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC6725D4F1170053E16F /* playerDelegate.swift */; };
 		2375FC6B25D4F1230053E16F /* genericDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC6A25D4F1230053E16F /* genericDelegate.swift */; };
+		2375FC6E25D4F2EF0053E16F /* staffCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC6D25D4F2EF0053E16F /* staffCoordinator.swift */; };
+		2375FC7225D4F3030053E16F /* playerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC7125D4F3030053E16F /* playerCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		2375FC6425D4F10B0053E16F /* staffDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = staffDelegate.swift; sourceTree = "<group>"; };
 		2375FC6725D4F1170053E16F /* playerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerDelegate.swift; sourceTree = "<group>"; };
 		2375FC6A25D4F1230053E16F /* genericDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genericDelegate.swift; sourceTree = "<group>"; };
+		2375FC6D25D4F2EF0053E16F /* staffCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = staffCoordinator.swift; sourceTree = "<group>"; };
+		2375FC7125D4F3030053E16F /* playerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerCoordinator.swift; sourceTree = "<group>"; };
 		3626B6BD8245010CB4F24B99 /* Pods-MySquadPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySquadPro.release.xcconfig"; path = "Target Support Files/Pods-MySquadPro/Pods-MySquadPro.release.xcconfig"; sourceTree = "<group>"; };
 		3A30735F9395AB2C3F42F82E /* Pods-MySquadPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySquadPro.debug.xcconfig"; path = "Target Support Files/Pods-MySquadPro/Pods-MySquadPro.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,8 +145,9 @@
 		2375FC5625D4F08C0053E16F /* API */ = {
 			isa = PBXGroup;
 			children = (
-				2375FC5F25D4F0E70053E16F /* Protocols */,
+				2375FC7425D4F3090053E16F /* Authentication */,
 				2375FC5725D4F0950053E16F /* Coordinators */,
+				2375FC5F25D4F0E70053E16F /* Protocols */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -151,7 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				2375FC5825D4F0B90053E16F /* adminCoordinator.swift */,
-				2375FC5C25D4F0D80053E16F /* SecurityService.swift */,
+				2375FC6D25D4F2EF0053E16F /* staffCoordinator.swift */,
+				2375FC7125D4F3030053E16F /* playerCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -165,6 +171,14 @@
 				2375FC6A25D4F1230053E16F /* genericDelegate.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2375FC7425D4F3090053E16F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				2375FC5C25D4F0D80053E16F /* SecurityService.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 		69D9674A730B4178CBA335B3 /* Frameworks */ = {
@@ -303,7 +317,9 @@
 				2375FC6B25D4F1230053E16F /* genericDelegate.swift in Sources */,
 				2375FC5D25D4F0D80053E16F /* SecurityService.swift in Sources */,
 				2375FC6125D4F0FF0053E16F /* adminDelegate.swift in Sources */,
+				2375FC7225D4F3030053E16F /* playerCoordinator.swift in Sources */,
 				2375FC3D25D4EE5B0053E16F /* DashboardController.swift in Sources */,
+				2375FC6E25D4F2EF0053E16F /* staffCoordinator.swift in Sources */,
 				2375FC5425D4F01F0053E16F /* MoviesVC_Extension.swift in Sources */,
 				2375FC4425D4EEE90053E16F /* ChallengeController.swift in Sources */,
 				2375FC4B25D4EFA70053E16F /* DashboardVC_Extension.swift in Sources */,
