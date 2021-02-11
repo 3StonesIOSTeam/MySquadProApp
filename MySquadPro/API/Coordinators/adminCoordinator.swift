@@ -18,5 +18,8 @@ public class adminCoordinator: adminDelegate, Coordinator{
         //
     }
     
+    func editPosts() {
+        //
+    }
     
 }
