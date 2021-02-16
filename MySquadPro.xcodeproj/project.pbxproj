@@ -13,7 +13,6 @@
 		2375FBC425D4E6520053E16F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2375FBC225D4E6520053E16F /* Main.storyboard */; };
 		2375FBC625D4E6530053E16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2375FBC525D4E6530053E16F /* Assets.xcassets */; };
 		2375FBC925D4E6530053E16F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2375FBC725D4E6530053E16F /* LaunchScreen.storyboard */; };
-		2375FBD225D4E6750053E16F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2375FBD125D4E6750053E16F /* GoogleService-Info.plist */; };
 		2375FC3525D4EDD60053E16F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC3425D4EDD60053E16F /* UserModel.swift */; };
 		2375FC3D25D4EE5B0053E16F /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC3C25D4EE5B0053E16F /* DashboardController.swift */; };
 		2375FC4125D4EEBD0053E16F /* RosterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC4025D4EEBD0053E16F /* RosterController.swift */; };
@@ -31,6 +30,7 @@
 		2375FC6B25D4F1230053E16F /* genericDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC6A25D4F1230053E16F /* genericDelegate.swift */; };
 		2375FC6E25D4F2EF0053E16F /* staffCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC6D25D4F2EF0053E16F /* staffCoordinator.swift */; };
 		2375FC7225D4F3030053E16F /* playerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC7125D4F3030053E16F /* playerCoordinator.swift */; };
+		23F06C0925DB640600F11C06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23F06C0825DB640600F11C06 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,6 @@
 		2375FBC525D4E6530053E16F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2375FBC825D4E6530053E16F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2375FBCA25D4E6530053E16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2375FBD125D4E6750053E16F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2375FC3425D4EDD60053E16F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		2375FC3C25D4EE5B0053E16F /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
 		2375FC4025D4EEBD0053E16F /* RosterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterController.swift; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		2375FC6A25D4F1230053E16F /* genericDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genericDelegate.swift; sourceTree = "<group>"; };
 		2375FC6D25D4F2EF0053E16F /* staffCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = staffCoordinator.swift; sourceTree = "<group>"; };
 		2375FC7125D4F3030053E16F /* playerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerCoordinator.swift; sourceTree = "<group>"; };
+		23F06C0825DB640600F11C06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		3626B6BD8245010CB4F24B99 /* Pods-MySquadPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySquadPro.release.xcconfig"; path = "Target Support Files/Pods-MySquadPro/Pods-MySquadPro.release.xcconfig"; sourceTree = "<group>"; };
 		3A30735F9395AB2C3F42F82E /* Pods-MySquadPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySquadPro.debug.xcconfig"; path = "Target Support Files/Pods-MySquadPro/Pods-MySquadPro.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,7 +107,7 @@
 				2375FBC525D4E6530053E16F /* Assets.xcassets */,
 				2375FBC725D4E6530053E16F /* LaunchScreen.storyboard */,
 				2375FBCA25D4E6530053E16F /* Info.plist */,
-				2375FBD125D4E6750053E16F /* GoogleService-Info.plist */,
+				23F06C0825DB640600F11C06 /* GoogleService-Info.plist */,
 			);
 			path = MySquadPro;
 			sourceTree = "<group>";
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2375FBC925D4E6530053E16F /* LaunchScreen.storyboard in Resources */,
-				2375FBD225D4E6750053E16F /* GoogleService-Info.plist in Resources */,
+				23F06C0925DB640600F11C06 /* GoogleService-Info.plist in Resources */,
 				2375FBC625D4E6530053E16F /* Assets.xcassets in Resources */,
 				2375FBC425D4E6520053E16F /* Main.storyboard in Resources */,
 			);
