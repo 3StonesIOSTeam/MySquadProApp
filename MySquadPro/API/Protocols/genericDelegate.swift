@@ -8,5 +8,8 @@
 import Foundation
 
 protocol Coordinator {
-    //MARK: NOTHING TO SEE HERE
+    
+    //MARK: THERE IS ONE THING TO SEE HERE
+    init(username: String, path: String)
 }
+

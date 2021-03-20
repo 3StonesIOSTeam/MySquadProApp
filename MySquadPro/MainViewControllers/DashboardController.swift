@@ -7,10 +7,18 @@
 
 import Foundation
 import UIKit
+import FSCalendar
 
-class DashboardController: UIViewController {
+class DashboardController: UIViewController, FSCalendarDelegate, FSCalendarDataSource {
     
-//    private var cd = Coordinator(user: "")
+    var calendar:FSCalendar!
+    let customizer=DateFormatter()
+    
+    private var userToken: User? {
+        didSet {
+            print("userToken info: \(userToken!.toString())")
+        }
+    }
 
     let titleViewBackground: UIView = {
         
@@ -20,6 +28,8 @@ class DashboardController: UIViewController {
         bg.translatesAutoresizingMaskIntoConstraints = false
         return bg
     }()
+    
+  
     
     let titleLabel: UILabel = {
     
@@ -46,6 +56,7 @@ class DashboardController: UIViewController {
         button.contentHorizontalAlignment = .fill
         button.contentVerticalAlignment = .fill
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.addTarget(self, action: #selector(dotaction), for: .touchUpInside)
         return button
     }()
     
@@ -58,6 +69,7 @@ class DashboardController: UIViewController {
         button.contentHorizontalAlignment = .fill
         button.contentVerticalAlignment = .fill
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.addTarget(self, action: #selector(calendaraction), for: .touchUpInside)
         return button
     }()
     
@@ -73,6 +85,27 @@ class DashboardController: UIViewController {
         
         // Constraint TitleView elements
         setupTitleView()
+        
+    }
+    
+    
+    @objc func calendaraction() {
+        let rootVC = CalendarController()
+        rootVC.userToken = userToken
+        let navVC = UINavigationController(rootViewController: rootVC)
+        navVC.modalPresentationStyle = .fullScreen
+        navVC.isModalInPresentation = false
+        present(navVC, animated: true)
+    }
+    
+    @objc func dotaction() {
+        let sc = SecurityService(withEmail: "test4@gmail.com", password: "kkkkkk", organization: "Orioles")
+        sc.authenticateUser { (User) in
+            self.userToken = (User.copy() as! User)
+        }
+        
+   
+        
         
     }
     

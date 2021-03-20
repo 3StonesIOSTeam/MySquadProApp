@@ -9,6 +9,6 @@ import Foundation
 
 protocol playerDelegate {
     
-    
-    func savePost()
+  func fetchPosts()
+  
 }

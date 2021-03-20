@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0AEDEF3E9B10951FDFF720CC /* Pods_MySquadPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B476FB4224FC73CF32B4697 /* Pods_MySquadPro.framework */; };
+		23385D5025F9420900CA72C3 /* calendar_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23385D4F25F9420900CA72C3 /* calendar_Extension.swift */; };
+		23385D5625F945D100CA72C3 /* CalendarEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23385D5525F945D100CA72C3 /* CalendarEventCell.swift */; };
+		233AABA825FF102900605730 /* NewEvent_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233AABA725FF102900605730 /* NewEvent_Extension.swift */; };
+		235567FE26014EF3002810E3 /* TeamListPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235567FD26014EF3002810E3 /* TeamListPickerController.swift */; };
+		235568042601522A002810E3 /* TeamListPicker_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235568032601522A002810E3 /* TeamListPicker_Extension.swift */; };
+		2355680A2604397B002810E3 /* TimeAndReccurenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235568092604397B002810E3 /* TimeAndReccurenceController.swift */; };
+		2355680E26043B26002810E3 /* TimeAndReccurence_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2355680D26043B26002810E3 /* TimeAndReccurence_Extension.swift */; };
+		23650C5B25F405F100FB4DBE /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23650C5A25F405F100FB4DBE /* Enums.swift */; };
+		23650C7825F71A6600FB4DBE /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23650C7725F71A6600FB4DBE /* CalendarController.swift */; };
 		2375FBBD25D4E6520053E16F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FBBC25D4E6520053E16F /* AppDelegate.swift */; };
 		2375FBBF25D4E6520053E16F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FBBE25D4E6520053E16F /* SceneDelegate.swift */; };
 		2375FBC425D4E6520053E16F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2375FBC225D4E6520053E16F /* Main.storyboard */; };
@@ -30,11 +39,34 @@
 		2375FC6B25D4F1230053E16F /* genericDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC6A25D4F1230053E16F /* genericDelegate.swift */; };
 		2375FC6E25D4F2EF0053E16F /* staffCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC6D25D4F2EF0053E16F /* staffCoordinator.swift */; };
 		2375FC7225D4F3030053E16F /* playerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2375FC7125D4F3030053E16F /* playerCoordinator.swift */; };
+		2392939325F9953700C2385D /* NewEventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2392939225F9953700C2385D /* NewEventController.swift */; };
+		2392939725F9AEC200C2385D /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2392939625F9AEC200C2385D /* EventModel.swift */; };
 		23F06C0925DB640600F11C06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23F06C0825DB640600F11C06 /* GoogleService-Info.plist */; };
+		23F06C1325DB7A2500F11C06 /* MySquadProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F06C1225DB7A2500F11C06 /* MySquadProTests.swift */; };
+		23F0C37C25E368F200F573B0 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F0C37B25E368F200F573B0 /* PostModel.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23F06C1525DB7A2500F11C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2375FBB125D4E6520053E16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2375FBB825D4E6520053E16F;
+			remoteInfo = MySquadPro;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0B476FB4224FC73CF32B4697 /* Pods_MySquadPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySquadPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23385D4F25F9420900CA72C3 /* calendar_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar_Extension.swift; sourceTree = "<group>"; };
+		23385D5525F945D100CA72C3 /* CalendarEventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEventCell.swift; sourceTree = "<group>"; };
+		233AABA725FF102900605730 /* NewEvent_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEvent_Extension.swift; sourceTree = "<group>"; };
+		235567FD26014EF3002810E3 /* TeamListPickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListPickerController.swift; sourceTree = "<group>"; };
+		235568032601522A002810E3 /* TeamListPicker_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListPicker_Extension.swift; sourceTree = "<group>"; };
+		235568092604397B002810E3 /* TimeAndReccurenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndReccurenceController.swift; sourceTree = "<group>"; };
+		2355680D26043B26002810E3 /* TimeAndReccurence_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndReccurence_Extension.swift; sourceTree = "<group>"; };
+		23650C5A25F405F100FB4DBE /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		23650C7725F71A6600FB4DBE /* CalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
 		2375FBB925D4E6520053E16F /* MySquadPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySquadPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2375FBBC25D4E6520053E16F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2375FBBE25D4E6520053E16F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +91,13 @@
 		2375FC6A25D4F1230053E16F /* genericDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genericDelegate.swift; sourceTree = "<group>"; };
 		2375FC6D25D4F2EF0053E16F /* staffCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = staffCoordinator.swift; sourceTree = "<group>"; };
 		2375FC7125D4F3030053E16F /* playerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerCoordinator.swift; sourceTree = "<group>"; };
+		2392939225F9953700C2385D /* NewEventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventController.swift; sourceTree = "<group>"; };
+		2392939625F9AEC200C2385D /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
 		23F06C0825DB640600F11C06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		23F06C1025DB7A2500F11C06 /* MySquadProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySquadProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F06C1225DB7A2500F11C06 /* MySquadProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySquadProTests.swift; sourceTree = "<group>"; };
+		23F06C1425DB7A2500F11C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F0C37B25E368F200F573B0 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		3626B6BD8245010CB4F24B99 /* Pods-MySquadPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySquadPro.release.xcconfig"; path = "Target Support Files/Pods-MySquadPro/Pods-MySquadPro.release.xcconfig"; sourceTree = "<group>"; };
 		3A30735F9395AB2C3F42F82E /* Pods-MySquadPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySquadPro.debug.xcconfig"; path = "Target Support Files/Pods-MySquadPro/Pods-MySquadPro.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,13 +111,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		23F06C0D25DB7A2500F11C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23385D4E25F941DF00CA72C3 /* CalendarExtension */ = {
+			isa = PBXGroup;
+			children = (
+				23385D4F25F9420900CA72C3 /* calendar_Extension.swift */,
+				2355680D26043B26002810E3 /* TimeAndReccurence_Extension.swift */,
+				233AABA725FF102900605730 /* NewEvent_Extension.swift */,
+				235568032601522A002810E3 /* TeamListPicker_Extension.swift */,
+			);
+			path = CalendarExtension;
+			sourceTree = "<group>";
+		};
+		23650C5925F405E200FB4DBE /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				23650C5A25F405F100FB4DBE /* Enums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		23650C7B25F8668100FB4DBE /* CalendarController */ = {
+			isa = PBXGroup;
+			children = (
+				23650C7725F71A6600FB4DBE /* CalendarController.swift */,
+				235568092604397B002810E3 /* TimeAndReccurenceController.swift */,
+				2392939225F9953700C2385D /* NewEventController.swift */,
+				235567FD26014EF3002810E3 /* TeamListPickerController.swift */,
+			);
+			path = CalendarController;
+			sourceTree = "<group>";
+		};
 		2375FBB025D4E6520053E16F = {
 			isa = PBXGroup;
 			children = (
 				2375FBBB25D4E6520053E16F /* MySquadPro */,
+				23F06C1125DB7A2500F11C06 /* MySquadProTests */,
 				2375FBBA25D4E6520053E16F /* Products */,
 				8C590E1EF8F553B647DAC3FD /* Pods */,
 				69D9674A730B4178CBA335B3 /* Frameworks */,
@@ -90,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				2375FBB925D4E6520053E16F /* MySquadPro.app */,
+				23F06C1025DB7A2500F11C06 /* MySquadProTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +174,14 @@
 		2375FBBB25D4E6520053E16F /* MySquadPro */ = {
 			isa = PBXGroup;
 			children = (
-				2375FC3325D4EDC90053E16F /* Model */,
-				2375FC3B25D4EE350053E16F /* Controllers */,
-				2375FC4925D4EF5C0053E16F /* Extension */,
-				2375FC5625D4F08C0053E16F /* API */,
 				2375FBBC25D4E6520053E16F /* AppDelegate.swift */,
 				2375FBBE25D4E6520053E16F /* SceneDelegate.swift */,
+				2375FC3325D4EDC90053E16F /* Model */,
+				23650C7B25F8668100FB4DBE /* CalendarController */,
+				23385D4E25F941DF00CA72C3 /* CalendarExtension */,
+				2375FC3B25D4EE350053E16F /* MainViewControllers */,
+				2375FC4925D4EF5C0053E16F /* MainViewExtension */,
+				2375FC5625D4F08C0053E16F /* API */,
 				2375FBC225D4E6520053E16F /* Main.storyboard */,
 				2375FBC525D4E6530053E16F /* Assets.xcassets */,
 				2375FBC725D4E6530053E16F /* LaunchScreen.storyboard */,
@@ -116,11 +195,14 @@
 			isa = PBXGroup;
 			children = (
 				2375FC3425D4EDD60053E16F /* UserModel.swift */,
+				23F0C37B25E368F200F573B0 /* PostModel.swift */,
+				2392939625F9AEC200C2385D /* EventModel.swift */,
+				23385D5525F945D100CA72C3 /* CalendarEventCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		2375FC3B25D4EE350053E16F /* Controllers */ = {
+		2375FC3B25D4EE350053E16F /* MainViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				2375FC3C25D4EE5B0053E16F /* DashboardController.swift */,
@@ -128,10 +210,10 @@
 				2375FC4325D4EEE90053E16F /* ChallengeController.swift */,
 				2375FC4625D4EF160053E16F /* MoviesController.swift */,
 			);
-			path = Controllers;
+			path = MainViewControllers;
 			sourceTree = "<group>";
 		};
-		2375FC4925D4EF5C0053E16F /* Extension */ = {
+		2375FC4925D4EF5C0053E16F /* MainViewExtension */ = {
 			isa = PBXGroup;
 			children = (
 				2375FC4A25D4EFA70053E16F /* DashboardVC_Extension.swift */,
@@ -139,12 +221,13 @@
 				2375FC5025D4EFF60053E16F /* ChallengeVC_Extension.swift */,
 				2375FC5325D4F01F0053E16F /* MoviesVC_Extension.swift */,
 			);
-			path = Extension;
+			path = MainViewExtension;
 			sourceTree = "<group>";
 		};
 		2375FC5625D4F08C0053E16F /* API */ = {
 			isa = PBXGroup;
 			children = (
+				23650C5925F405E200FB4DBE /* Enums */,
 				2375FC7425D4F3090053E16F /* Authentication */,
 				2375FC5725D4F0950053E16F /* Coordinators */,
 				2375FC5F25D4F0E70053E16F /* Protocols */,
@@ -179,6 +262,15 @@
 				2375FC5C25D4F0D80053E16F /* SecurityService.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		23F06C1125DB7A2500F11C06 /* MySquadProTests */ = {
+			isa = PBXGroup;
+			children = (
+				23F06C1225DB7A2500F11C06 /* MySquadProTests.swift */,
+				23F06C1425DB7A2500F11C06 /* Info.plist */,
+			);
+			path = MySquadProTests;
 			sourceTree = "<group>";
 		};
 		69D9674A730B4178CBA335B3 /* Frameworks */ = {
@@ -220,6 +312,24 @@
 			productReference = 2375FBB925D4E6520053E16F /* MySquadPro.app */;
 			productType = "com.apple.product-type.application";
 		};
+		23F06C0F25DB7A2500F11C06 /* MySquadProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F06C1725DB7A2500F11C06 /* Build configuration list for PBXNativeTarget "MySquadProTests" */;
+			buildPhases = (
+				23F06C0C25DB7A2500F11C06 /* Sources */,
+				23F06C0D25DB7A2500F11C06 /* Frameworks */,
+				23F06C0E25DB7A2500F11C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23F06C1625DB7A2500F11C06 /* PBXTargetDependency */,
+			);
+			name = MySquadProTests;
+			productName = MySquadProTests;
+			productReference = 23F06C1025DB7A2500F11C06 /* MySquadProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -231,6 +341,10 @@
 				TargetAttributes = {
 					2375FBB825D4E6520053E16F = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					23F06C0F25DB7A2500F11C06 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2375FBB825D4E6520053E16F;
 					};
 				};
 			};
@@ -248,6 +362,7 @@
 			projectRoot = "";
 			targets = (
 				2375FBB825D4E6520053E16F /* MySquadPro */,
+				23F06C0F25DB7A2500F11C06 /* MySquadProTests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +376,13 @@
 				23F06C0925DB640600F11C06 /* GoogleService-Info.plist in Resources */,
 				2375FBC625D4E6530053E16F /* Assets.xcassets in Resources */,
 				2375FBC425D4E6520053E16F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F06C0E25DB7A2500F11C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,25 +439,53 @@
 				2375FC6B25D4F1230053E16F /* genericDelegate.swift in Sources */,
 				2375FC5D25D4F0D80053E16F /* SecurityService.swift in Sources */,
 				2375FC6125D4F0FF0053E16F /* adminDelegate.swift in Sources */,
+				23650C5B25F405F100FB4DBE /* Enums.swift in Sources */,
 				2375FC7225D4F3030053E16F /* playerCoordinator.swift in Sources */,
+				23F0C37C25E368F200F573B0 /* PostModel.swift in Sources */,
+				23650C7825F71A6600FB4DBE /* CalendarController.swift in Sources */,
+				2392939725F9AEC200C2385D /* EventModel.swift in Sources */,
 				2375FC3D25D4EE5B0053E16F /* DashboardController.swift in Sources */,
+				2355680E26043B26002810E3 /* TimeAndReccurence_Extension.swift in Sources */,
 				2375FC6E25D4F2EF0053E16F /* staffCoordinator.swift in Sources */,
 				2375FC5425D4F01F0053E16F /* MoviesVC_Extension.swift in Sources */,
 				2375FC4425D4EEE90053E16F /* ChallengeController.swift in Sources */,
 				2375FC4B25D4EFA70053E16F /* DashboardVC_Extension.swift in Sources */,
 				2375FC6825D4F1170053E16F /* playerDelegate.swift in Sources */,
+				23385D5025F9420900CA72C3 /* calendar_Extension.swift in Sources */,
 				2375FBBD25D4E6520053E16F /* AppDelegate.swift in Sources */,
 				2375FC4125D4EEBD0053E16F /* RosterController.swift in Sources */,
+				2392939325F9953700C2385D /* NewEventController.swift in Sources */,
 				2375FC6525D4F10B0053E16F /* staffDelegate.swift in Sources */,
 				2375FC5125D4EFF60053E16F /* ChallengeVC_Extension.swift in Sources */,
 				2375FC4E25D4EFCE0053E16F /* RosterVC_Extension.swift in Sources */,
+				233AABA825FF102900605730 /* NewEvent_Extension.swift in Sources */,
+				2355680A2604397B002810E3 /* TimeAndReccurenceController.swift in Sources */,
+				235568042601522A002810E3 /* TeamListPicker_Extension.swift in Sources */,
 				2375FBBF25D4E6520053E16F /* SceneDelegate.swift in Sources */,
 				2375FC5925D4F0B90053E16F /* adminCoordinator.swift in Sources */,
+				235567FE26014EF3002810E3 /* TeamListPickerController.swift in Sources */,
+				23385D5625F945D100CA72C3 /* CalendarEventCell.swift in Sources */,
 				2375FC3525D4EDD60053E16F /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		23F06C0C25DB7A2500F11C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F06C1325DB7A2500F11C06 /* MySquadProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23F06C1625DB7A2500F11C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2375FBB825D4E6520053E16F /* MySquadPro */;
+			targetProxy = 23F06C1525DB7A2500F11C06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2375FBC225D4E6520053E16F /* Main.storyboard */ = {
@@ -480,6 +630,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RBJ2BN8LL;
 				INFOPLIST_FILE = MySquadPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -499,6 +650,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RBJ2BN8LL;
 				INFOPLIST_FILE = MySquadPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -508,6 +660,46 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23F06C1825DB7A2500F11C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/Pods/Firebase/CoreOnly/Sources";
+				INFOPLIST_FILE = MySquadProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myapps.MySquadProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySquadPro.app/MySquadPro";
+			};
+			name = Debug;
+		};
+		23F06C1925DB7A2500F11C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/Pods/Firebase/CoreOnly/Sources";
+				INFOPLIST_FILE = MySquadProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myapps.MySquadProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySquadPro.app/MySquadPro";
 			};
 			name = Release;
 		};
@@ -528,6 +720,15 @@
 			buildConfigurations = (
 				2375FBCE25D4E6530053E16F /* Debug */,
 				2375FBCF25D4E6530053E16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F06C1725DB7A2500F11C06 /* Build configuration list for PBXNativeTarget "MySquadProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F06C1825DB7A2500F11C06 /* Debug */,
+				23F06C1925DB7A2500F11C06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

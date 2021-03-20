@@ -9,6 +9,10 @@ import Foundation
 
 protocol staffDelegate {
     
+    func savePost(post: Post)
+    func editPost(id: String, subject: String, text: String)
+    func fetchPosts()
     
-    func savePost()
+    func performDatabaseQuery(fetchType: userQueryType, completion: @escaping (([String]?, appErrors?) -> ()))
+    func registerUserInTeam(withname: String, email: String, completion: @escaping ((appErrors?) -> ()))
 }

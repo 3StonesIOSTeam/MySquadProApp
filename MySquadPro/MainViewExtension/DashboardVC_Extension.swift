@@ -9,7 +9,7 @@ import UIKit
 
 extension DashboardController {
     
-    func setupTitleView() {
+     func setupTitleView() {
         
         // Anchor titleview background
         titleViewBackground.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width).isActive = true
@@ -34,8 +34,9 @@ extension DashboardController {
         calendarButton.widthAnchor.constraint(equalToConstant: 30).isActive = true
         calendarButton.heightAnchor.constraint(equalToConstant: 25).isActive = true
         
-        
     }
+  
+    
 }
 
 
