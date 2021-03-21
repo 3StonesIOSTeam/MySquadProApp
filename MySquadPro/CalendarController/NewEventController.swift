@@ -63,6 +63,7 @@ class NewEventController: UIViewController, UITextViewDelegate, UIGestureRecogni
         label.setTitle("Select Team:", for: .normal)
         label.setTitleColor(UIColor.white.withAlphaComponent(0.7), for: .normal)
         label.addTarget(self, action: #selector(handleTap), for: .touchUpInside)
+        label.contentHorizontalAlignment = .left
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
         
@@ -70,10 +71,10 @@ class NewEventController: UIViewController, UITextViewDelegate, UIGestureRecogni
     
     lazy var navigationlink2Title: UIButton = {
         var label = UIButton(frame: .zero)
-        label.setTitle("Time and Repeat", for: .normal)
+        label.setTitle("Set Time and Cycle", for: .normal)
         label.setTitleColor(UIColor.white.withAlphaComponent(0.7), for: .normal)
         label.addTarget(self, action: #selector(handleTap2), for: .touchUpInside)
-        label.titleEdgeInsets = UIEdgeInsets(top: 0, left: 15, bottom: 0, right: -15)
+        label.contentHorizontalAlignment = .left
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
         
@@ -237,7 +238,7 @@ class NewEventController: UIViewController, UITextViewDelegate, UIGestureRecogni
         navigationlinkTitle.centerYAnchor.constraint(equalTo: navigationlinkBackground.centerYAnchor).isActive = true
         navigationlinkTitle.heightAnchor.constraint(equalTo: navigationlinkBackground.heightAnchor, constant: -5).isActive = true
         navigationlinkTitle.widthAnchor.constraint(equalTo: navigationlinkBackground.widthAnchor, multiplier: 1/3).isActive = true
-        navigationlinkTitle.leftAnchor.constraint(equalTo: navigationlinkBackground.leftAnchor).isActive = true
+       
         
         
         imageView.widthAnchor.constraint(equalToConstant: 20).isActive = true
@@ -273,8 +274,11 @@ class NewEventController: UIViewController, UITextViewDelegate, UIGestureRecogni
         navigationlink2Background.addSubview(navigationlink2Title)
         navigationlink2Title.centerYAnchor.constraint(equalTo: navigationlink2Background.centerYAnchor).isActive = true
         navigationlink2Title.heightAnchor.constraint(equalTo: navigationlink2Background.heightAnchor, constant: -5).isActive = true
-        navigationlink2Title.widthAnchor.constraint(equalTo: navigationlink2Background.widthAnchor, multiplier: 1/3).isActive = true
-        navigationlink2Title.leftAnchor.constraint(equalTo: navigationlinkTitle.leftAnchor).isActive = true
+        navigationlink2Title.widthAnchor.constraint(equalTo: navigationlink2Background.widthAnchor, multiplier: 2/3).isActive = true
+        navigationlink2Title.leftAnchor.constraint(equalTo: divider2.leftAnchor).isActive = true
+        
+        navigationlinkTitle.leftAnchor.constraint(equalTo: divider2.leftAnchor).isActive = true
+        
         
         
     }

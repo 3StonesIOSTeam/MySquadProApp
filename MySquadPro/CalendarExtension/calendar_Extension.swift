@@ -49,6 +49,7 @@ extension CalendarController: FSCalendarDelegate, FSCalendarDataSource, FSCalend
     }
     
     
+    
     //MARK: - NAVIGATION BAR
     func setupNavBar() {
         UINavigationBar.appearance().barTintColor = .black

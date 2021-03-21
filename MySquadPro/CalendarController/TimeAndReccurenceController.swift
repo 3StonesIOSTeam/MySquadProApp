@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import DateTimePicker
+import Swift
 
 class TimeAndReccurenceController: UIViewController {
     
@@ -548,6 +548,7 @@ class TimeAndReccurenceController: UIViewController {
         
         self.durTimeStack(isSelected: false)
         self.calculateDurTime()
+        
         
     }
     
